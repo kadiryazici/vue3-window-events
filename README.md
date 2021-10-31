@@ -1,5 +1,7 @@
 ## Global window events component for vue 3
 
+This component adds all given listeners to window component and removes them when component unmounts.
+
 ### Intallation
 
 For npm:
@@ -64,10 +66,10 @@ const MyComponent = defineComponent({
 
 This package has built-in typescript support for emits and props, you will have no trouble while using it.
 
-![Auto completion](./md/autocomplete.png)
+![Auto completion](https://raw.githubusercontent.com/kadiryazici/vue3-window-events/dev/md/autocomplete.png)
 
 To have types support in vue files I recommend you to use `Volar` plugin. <br>
 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) <br>
 [TypeScript Vue Plugin](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin)
 
-![Auto completion](./md/autocomplete-vue.png)
+![Auto completion](https://raw.githubusercontent.com/kadiryazici/vue3-window-events/dev/md/autocomplete-vue.png)
