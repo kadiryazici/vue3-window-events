@@ -68,7 +68,7 @@ export const WindowEvents = defineComponent({
       const didMount = ref(false);
       const events = filterEvents(attrs);
       const eventNames = Object.keys(events);
-      console.log({ events });
+
       onMounted(() => {
          didMount.value = true;
          applyEvents(eventNames, events);
